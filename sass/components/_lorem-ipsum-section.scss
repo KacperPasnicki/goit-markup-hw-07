@@ -1,0 +1,44 @@
+.lorem {
+    display: flex;
+}
+.lorem .container{
+    display: flex;
+    
+}
+.lorem-list {
+display: flex;
+
+}
+
+.lorem-list__background {
+    display: flex;
+    align-items: center;
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 10px;
+
+}
+
+.lorem-ipsum__header
+{
+    font-weight: 700;
+    line-height: 1.285;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.lorem-list{
+    font-size: 14px;
+    line-height: 1.142;   
+    letter-spacing: 0.03em;
+    list-style: none;
+    }
+.lorem-list__element:not(:last-child) {
+    margin-right: 30px;
+}
+.lorem-ipsum__text {
+    max-width: 270px;
+}
